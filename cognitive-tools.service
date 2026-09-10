@@ -1,0 +1,21 @@
+[Unit]
+Description=Cognitive Augmentation Daemon (Sang / iCanStudy Tools)
+After=default.target
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=%h/.Xauthority
+Environment=PATH=/usr/local/bin:/usr/bin:/bin
+WorkingDirectory=%h/projects/cognitive-layer
+# Настройки подключения к LLM (любой OpenAI-совместимый эндпоинт):
+Environment=COGNITIVE_API_URL=http://127.0.0.1:8081/v1/chat/completions
+Environment=COGNITIVE_MODEL=gemini-flash-lite
+Environment=COGNITIVE_TIMEOUT=12
+ExecStart=/usr/bin/python3 %h/projects/cognitive-layer/cognitive_daemon.py
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
+

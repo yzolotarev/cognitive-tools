@@ -1,0 +1,2 @@
+# System packages are preferred on Arch Linux.
+# python-xlib and PyGObject are installed via pacman in README.md.
