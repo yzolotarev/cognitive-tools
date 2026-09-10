@@ -13,7 +13,7 @@ The first version is intentionally small:
 - user-level systemd autostart;
 - lightweight local event logging.
 
-The implementation follows the working model we extracted from the Sang/iCanStudy corpus: compression, relation-building, prediction, reconstruction, and mapping are treated as small cognitive actions rather than as a separate study environment.
+The implementation follows the working model described in [THEORY.md](THEORY.md): compression, relation-building, prediction, reconstruction, and mapping are treated as small cognitive actions rather than as a separate study environment. The theory document contains the full architectural rationale, prompt examples, MVP boundaries, and formal cognitive foundation.
 
 ## Attribution and reuse
 
