@@ -21,7 +21,7 @@ This project is based on the original idea and methodology developed by Justin S
 
 - the project author as the original implementer of this code and tooling;
 - Justin Sung as the original methodological source and conceptual foundation of the cognitive workflow;
-- the underlying Sang / iCanStudy methodological lineage from which this work derives.
+- the underlying methodological lineage developed by Justin Sung, from which this work derives.
 
 In other words: reuse is allowed, but attribution is required. The project should not be presented as a fresh, standalone invention without citing the original authorship and conceptual source.
 
