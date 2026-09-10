@@ -1,5 +1,7 @@
 # Cognitive Augmentation Layer
 
+![Cognitive Tools](Gemini_Generated_Image_71egx171egx171eg.jpg)
+
 Small Linux/X11 utility for running a few cognitive operations on whatever text is currently selected or copied.
 
 The first version is intentionally small:
