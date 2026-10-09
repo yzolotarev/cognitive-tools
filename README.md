@@ -1,5 +1,7 @@
 # Cognitive Augmentation Layer
 
+> **Superseded.** This was the first version of the idea. It now lives on as [cognitive-popups](https://github.com/yzolotarev/cognitive-popups), and this repository is archived.
+
 ![Cognitive Tools](Gemini_Generated_Image_71egx171egx171eg.jpg)
 
 Small Linux/X11 utility for running a few cognitive operations on whatever text is currently selected or copied.
